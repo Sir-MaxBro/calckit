@@ -1,0 +1,29 @@
+﻿@model Calculators.Web.Logic.Entities.CalculatorNavViewModel
+
+@foreach (var category in Model.Calculators)
+{
+    <div class="calc-category">
+        <div class="calc-plus">
+            <i class="fa fa-plus-square" aria-hidden="true"></i>
+        </div>
+        <a data-toggle="collapse" href="#@category.Key" role="button" aria-expanded="false" aria-controls="@category.Key" onclick="navClick(this)">
+            @category.Key
+        </a>
+    </div>
+    <div class="collapse" id="@category.Key">
+        <div class="card card-body">
+            @foreach (var item in category.Value)
+            {
+                @Html.RouteLink(item.Value, new
+                    {
+                        controller = "Calculate",
+                        action = "CalculatorPage",
+                        calculateName = item.Key,
+                        calculateTitle = item.Value,
+                        calculateCategory = category.Key
+                    });
+            }
+        </div>
+    </div>
+}
+

@@ -1,0 +1,5 @@
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\bin\Release\iMax.HtmlConverter.dll
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\bin\Release\iMax.HtmlConverter.pdb
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\obj\Release\iMax.HtmlConverter.dll
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\obj\Release\iMax.HtmlConverter.pdb
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\obj\Release\iMax.HtmlConverter.csprojResolveAssemblyReference.cache

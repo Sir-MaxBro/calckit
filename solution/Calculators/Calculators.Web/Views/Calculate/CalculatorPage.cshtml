@@ -1,0 +1,41 @@
+﻿@model Calculators.Web.Models.CalculatorViewModel
+
+<p>
+    @Html.Raw(Model.Description)
+</p>
+
+<div class="panel calc">
+    <div class="header">@ViewBag.CalculateTitle</div>
+    <form id="calculator-form" name="calculator-form">
+        @{ Html.RenderPartial("Calculator", Model.Calculator); }
+        <input type="submit" value="Рассчитать" onclick="resultLoading()" />
+    </form>
+    <div id="result-loader" class="result-loader">
+    </div>
+    <div id="result">
+    </div>
+</div>
+
+@if (Model.SimilarCalculators.Count != 0)
+{
+    <div class="similar-calculators">
+        <p style="font-weight: bold">Калькуляторы из той же категории</p>
+        <ul>
+            @foreach (var item in Model.SimilarCalculators)
+            {
+                <li>
+                    @Html.RouteLink(item.Value, new
+                       {
+                           controller = "Calculate",
+                           action = "CalculatorPage",
+                           calculateName = item.Key,
+                           calculateTitle = item.Value,
+                           calculateCategory = ViewBag.Category
+                       })
+                </li>
+            }
+        </ul>
+    </div>
+}
+
+

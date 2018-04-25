@@ -1,0 +1,15 @@
+E:\Работа\CalculatorSite\Calculators\iMax.HtmlConverter\bin\Debug\iMax.HtmlConverter.dll
+E:\Работа\CalculatorSite\Calculators\iMax.HtmlConverter\bin\Debug\iMax.HtmlConverter.pdb
+E:\Работа\CalculatorSite\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.csprojResolveAssemblyReference.cache
+E:\Работа\CalculatorSite\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.dll
+E:\Работа\CalculatorSite\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.pdb
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\bin\Debug\iMax.HtmlConverter.dll
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\bin\Debug\iMax.HtmlConverter.pdb
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.csprojResolveAssemblyReference.cache
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.dll
+E:\Projects\calculatorProject\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.pdb
+E:\Projects\GitHub\calckit\solution\Calculators\iMax.HtmlConverter\bin\Debug\iMax.HtmlConverter.dll
+E:\Projects\GitHub\calckit\solution\Calculators\iMax.HtmlConverter\bin\Debug\iMax.HtmlConverter.pdb
+E:\Projects\GitHub\calckit\solution\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.csprojResolveAssemblyReference.cache
+E:\Projects\GitHub\calckit\solution\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.dll
+E:\Projects\GitHub\calckit\solution\Calculators\iMax.HtmlConverter\obj\Debug\iMax.HtmlConverter.pdb

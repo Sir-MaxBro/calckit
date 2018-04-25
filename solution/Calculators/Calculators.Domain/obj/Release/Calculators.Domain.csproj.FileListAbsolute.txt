@@ -1,0 +1,7 @@
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\bin\Release\Calculators.Domain.dll
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\bin\Release\Calculators.Domain.pdb
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\obj\Release\Calculators.Domain.Properties.Resources.resources
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\obj\Release\Calculators.Domain.csproj.GenerateResource.Cache
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\obj\Release\Calculators.Domain.dll
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\obj\Release\Calculators.Domain.pdb
+E:\Projects\calculatorProject\Calculators\Calculators.Domain\obj\Release\Calculators.Domain.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<calculator name="differentiatedCredit">
+  <description>
+    Калькулятор предназначен для рассчета количества лет, недель, дней, часов, минут и даже секунд между двумя датами! 
+  </description>
+</calculator>

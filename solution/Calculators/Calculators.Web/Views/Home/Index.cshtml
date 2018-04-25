@@ -1,0 +1,36 @@
+﻿@model Calculators.Web.Logic.Entities.CalculatorNavViewModel
+
+<p>
+    <span class="color-link"><a href="@Url.Action("Index", "Home")">CalcKit</a></span> - бесплатный сервис, созданный, чтобы упростить Вам жизнь. С помощью этого сервиса Вы сможете без труда провести необходимые Вам вычисления, причем совершенно бесплатно и без регистрации!
+</p>
+<p>
+    Каждый калькулятор был тщательно протестирован на ошибки. Если Вы нашли ошибку в рассчетах или же у Вас есть предложения по улучшению сайта - сообщите нам.
+</p>
+<div class="row">
+    @foreach (var category in Model.Calculators)
+    {
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="panel">
+                <div class="header">
+                    <i class="fa fa-calculator" aria-hidden="true"></i>
+                    @category.Key
+                </div>
+                <ul>
+                    @foreach (var item in category.Value)
+                    {
+                        <li>
+                            @Html.RouteLink(item.Value, new
+                            {
+                                controller = "Calculate",
+                                action = "CalculatorPage",
+                                calculateName = item.Key,
+                                calculateTitle = item.Value,
+                                calculateCategory = category.Key
+                            })
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculators.Web", "Calculators.Web\Calculators.Web.csproj", "{F580AA4B-2842-40A7-96E8-53669BF3475B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculators.Domain", "Calculators.Domain\Calculators.Domain.csproj", "{F7ECEF2E-557C-46B5-AA38-1D1A7F31D897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMax.HtmlConverter", "iMax.HtmlConverter\iMax.HtmlConverter.csproj", "{A084516D-35FF-4D32-9616-B0E489C7E73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculators.Web.Logic", "Calculators.Web.Logic\Calculators.Web.Logic.csproj", "{B5554681-1137-4AFD-8AD9-E5C2405A1ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F580AA4B-2842-40A7-96E8-53669BF3475B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F580AA4B-2842-40A7-96E8-53669BF3475B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F580AA4B-2842-40A7-96E8-53669BF3475B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F580AA4B-2842-40A7-96E8-53669BF3475B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ECEF2E-557C-46B5-AA38-1D1A7F31D897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ECEF2E-557C-46B5-AA38-1D1A7F31D897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ECEF2E-557C-46B5-AA38-1D1A7F31D897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ECEF2E-557C-46B5-AA38-1D1A7F31D897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A084516D-35FF-4D32-9616-B0E489C7E73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A084516D-35FF-4D32-9616-B0E489C7E73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A084516D-35FF-4D32-9616-B0E489C7E73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A084516D-35FF-4D32-9616-B0E489C7E73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5554681-1137-4AFD-8AD9-E5C2405A1ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5554681-1137-4AFD-8AD9-E5C2405A1ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5554681-1137-4AFD-8AD9-E5C2405A1ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5554681-1137-4AFD-8AD9-E5C2405A1ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
